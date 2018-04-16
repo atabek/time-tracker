@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <p>This app works!</p>
+      <div id="main" class="main ui">
+        <h1 class="ui dividing centered header">Timers</h1>
       </div>
     );
   }
